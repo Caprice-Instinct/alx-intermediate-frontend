@@ -11,7 +11,10 @@
       "Bash(if [ ! -f input.css ])",
       "Bash(else cat input.css)",
       "Bash(npx tailwindcss:*)",
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "Bash(git add:*)",
+      "Bash(git pull:*)",
+      "Bash(start 3-nav_index.html)"
     ],
     "deny": [],
     "ask": []
