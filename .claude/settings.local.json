@@ -14,7 +14,8 @@
       "Bash(npm uninstall:*)",
       "Bash(git add:*)",
       "Bash(git pull:*)",
-      "Bash(start 3-nav_index.html)"
+      "Bash(start 3-nav_index.html)",
+      "Bash(start 6-imageGallery.html)"
     ],
     "deny": [],
     "ask": []
