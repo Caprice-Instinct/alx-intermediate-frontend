@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init -y)",
+      "Bash(npm install:*)",
+      "Bash(if [ ! -f tailwind.config.js ])",
+      "Bash(then echo \"File does not exist\")",
+      "Bash(else cat tailwind.config.js)",
+      "Bash(fi)",
+      "Bash(mkdir:*)",
+      "Bash(if [ ! -f input.css ])",
+      "Bash(else cat input.css)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm uninstall:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
